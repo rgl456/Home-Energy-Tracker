@@ -153,6 +153,83 @@
             </ReqHistory>
           </value>
         </entry>
+        <entry key="6">
+          <value>
+            <ReqHistory>
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="id" value="6" />
+              <option name="method" value="GET" />
+              <option name="params">
+                <map>
+                  <entry key="id" value="3" />
+                </map>
+              </option>
+              <option name="res" value="User Not Found With this Id = 3" />
+              <option name="time" value="2025-12-10 10:00:26" />
+              <option name="uri" value="/api/v1/users/{id}" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="7">
+          <value>
+            <ReqHistory>
+              <option name="body" value="{&#10;  &quot;firstName&quot;: &quot;ravi&quot;,&#10;  &quot;lastName&quot;: &quot;gopal&quot;,&#10;  &quot;email&quot;: &quot;ravi@gmail,com&quot;,&#10;  &quot;address&quot;: &quot;k kovil&quot;,&#10;  &quot;alerting&quot;: false,&#10;  &quot;energyAlertingThreshold&quot;: 0&#10;}" />
+              <option name="contentType" value="application/json" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map>
+                  <entry key="Content-Type" value="application/json" />
+                </map>
+              </option>
+              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="id" value="7" />
+              <option name="method" value="PUT" />
+              <option name="params">
+                <map>
+                  <entry key="id" value="2" />
+                </map>
+              </option>
+              <option name="res" value="{&quot;id&quot;:2,&quot;firstName&quot;:&quot;ravi&quot;,&quot;lastName&quot;:&quot;gopal&quot;,&quot;email&quot;:&quot;ravi@gmail,com&quot;,&quot;address&quot;:&quot;k kovil&quot;,&quot;alerting&quot;:false,&quot;energyAlertingThreshold&quot;:0.0}" />
+              <option name="time" value="2025-12-10 10:12:43" />
+              <option name="uri" value="/api/v1/users/{id}" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="8">
+          <value>
+            <ReqHistory>
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="id" value="8" />
+              <option name="method" value="GET" />
+              <option name="params">
+                <map>
+                  <entry key="id" value="2" />
+                </map>
+              </option>
+              <option name="res" value="{&quot;id&quot;:2,&quot;firstName&quot;:&quot;ravi&quot;,&quot;lastName&quot;:&quot;gopal&quot;,&quot;email&quot;:&quot;ravi@gmail,com&quot;,&quot;address&quot;:&quot;k kovil&quot;,&quot;alerting&quot;:false,&quot;energyAlertingThreshold&quot;:0.0}" />
+              <option name="time" value="2025-12-10 10:12:52" />
+              <option name="uri" value="/api/v1/users/{id}" />
+            </ReqHistory>
+          </value>
+        </entry>
       </map>
     </option>
   </component>

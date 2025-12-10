@@ -30,7 +30,14 @@ public class UserController {
         }
     }
 
-
-
+    @PutMapping("/{id}")
+    public ResponseEntity<?> updateUserById(@PathVariable Long id, @RequestBody UserRequestDto requestDto){
+        try{
+            return new ResponseEntity<>(userService.updateUserById(id, requestDto), HttpStatus.OK);
+        }
+        catch (Exception e){
+            return new ResponseEntity<>(e.getMessage(), HttpStatus.NOT_FOUND);
+        }
+    }
 
 }

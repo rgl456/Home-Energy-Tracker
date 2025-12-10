@@ -20,11 +20,10 @@ public class UserService {
 
     public UserResponseDto createUser(UserRequestDto requestDto) {
         log.info("Creating user : {}", requestDto);
-
         User createdUser = UserMapper.dtoToEntity(requestDto);
-        log.info("User created successfully : {}", createdUser);
 
         userRepository.save(createdUser);
+        log.info("User created successfully : {}", createdUser);
 
         return UserMapper.entityToDto(createdUser);
     }
@@ -34,8 +33,25 @@ public class UserService {
         log.info("Getting user by id {}", id);
         User user = userRepository.findById(id)
                 .orElseThrow(() -> new RuntimeException("User Not Found With this Id = "+ id));
+
         log.info("user fetched successfully {}", user);
         return UserMapper.entityToDto(user);
     }
 
+    public UserResponseDto updateUserById(Long id, UserRequestDto requestDto) {
+        log.info("Getting user by id {}", id);
+        User user = userRepository.findById(id)
+                .orElseThrow(() -> new RuntimeException("User Not Found With this Id = "+ id));
+
+        user.setFirstName(requestDto.firstName());
+        user.setLastName(requestDto.lastName());
+        user.setEmail(requestDto.email());
+        user.setAddress(requestDto.address());
+        user.setAlerting(requestDto.alerting());
+        user.setEnergyAlertingThreshold(requestDto.energyAlertingThreshold());
+        User savedUser = userRepository.save(user);
+
+        log.info("User updated successfully : {}", savedUser);
+        return UserMapper.entityToDto(savedUser);
+    }
 }
