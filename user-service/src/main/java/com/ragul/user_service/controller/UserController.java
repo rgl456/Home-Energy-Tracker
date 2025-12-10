@@ -40,4 +40,14 @@ public class UserController {
         }
     }
 
+    @DeleteMapping("/{id}")
+    public ResponseEntity<String> deleteUserById(@PathVariable Long id){
+        try{
+            return new ResponseEntity<>(userService.deleteUserById(id), HttpStatus.OK);
+        }
+        catch (Exception e){
+            return new ResponseEntity<>(e.getMessage(), HttpStatus.NOT_FOUND);
+        }
+    }
+
 }
