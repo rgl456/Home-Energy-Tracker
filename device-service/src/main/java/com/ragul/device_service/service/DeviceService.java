@@ -3,6 +3,7 @@ package com.ragul.device_service.service;
 import com.ragul.device_service.dto.DeviceRequestDto;
 import com.ragul.device_service.dto.DeviceResponseDto;
 import com.ragul.device_service.entity.Device;
+import com.ragul.device_service.exception.DeviceNotFoundException;
 import com.ragul.device_service.mapper.DeviceMapper;
 import com.ragul.device_service.repository.DeviceRepository;
 import lombok.RequiredArgsConstructor;
@@ -16,9 +17,9 @@ public class DeviceService {
 
     public DeviceResponseDto getDeviceById(Long id) {
         Device device = deviceRepository.findById(id)
-                        .orElseThrow(() -> new RuntimeException("Device not with this id "+id));
-        DeviceResponseDto responseDto = DeviceMapper.entityToDto(device);
-        return responseDto;
+                        .orElseThrow(() -> new DeviceNotFoundException("Device not Found with this id "+id));
+
+        return DeviceMapper.entityToDto(device);
     }
 
     public DeviceResponseDto createDevice(DeviceRequestDto requestDto) {
@@ -29,7 +30,7 @@ public class DeviceService {
 
     public DeviceResponseDto updateUserById(Long id, DeviceRequestDto requestDto) {
         Device device = deviceRepository.findById(id)
-                .orElseThrow(() -> new RuntimeException("Device not with this id "+id));
+                .orElseThrow(() -> new DeviceNotFoundException("Device not Found with this id "+id));
         device.setName(requestDto.name());
         device.setType(requestDto.type());
         device.setLocation(requestDto.location());
@@ -40,7 +41,7 @@ public class DeviceService {
 
     public String deleteUserById(Long id) {
         Device device = deviceRepository.findById(id)
-                .orElseThrow(() -> new RuntimeException("Device not with this id "+id));
+                .orElseThrow(() -> new DeviceNotFoundException("Device not Found with this id "+id));
         deviceRepository.deleteById(id);
         return "device deleted successfully! id " + id;
     }
