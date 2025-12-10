@@ -9,6 +9,8 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
+import java.nio.file.attribute.UserPrincipalNotFoundException;
+
 @Service
 @Slf4j
 @RequiredArgsConstructor
@@ -27,5 +29,13 @@ public class UserService {
         return UserMapper.entityToDto(createdUser);
     }
 
+
+    public UserResponseDto getUserById(Long id) {
+        log.info("Getting user by id {}", id);
+        User user = userRepository.findById(id)
+                .orElseThrow(() -> new RuntimeException("User Not Found With this Id = "+ id));
+        log.info("user fetched successfully {}", user);
+        return UserMapper.entityToDto(user);
+    }
 
 }

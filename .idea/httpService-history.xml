@@ -28,6 +28,131 @@
             </ReqHistory>
           </value>
         </entry>
+        <entry key="1">
+          <value>
+            <ReqHistory>
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="id" value="1" />
+              <option name="method" value="GET" />
+              <option name="params">
+                <map>
+                  <entry key="id" value="1" />
+                </map>
+              </option>
+              <option name="res" value="{&quot;id&quot;:1,&quot;firstName&quot;:&quot;ragul&quot;,&quot;lastName&quot;:&quot;s&quot;,&quot;email&quot;:&quot;ragul@gmail.com&quot;,&quot;address&quot;:&quot;k kovil&quot;,&quot;alerting&quot;:true,&quot;energyAlertingThreshold&quot;:0.0}" />
+              <option name="time" value="2025-12-10 09:52:53" />
+              <option name="uri" value="/api/v1/users/{id}" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="2">
+          <value>
+            <ReqHistory>
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="id" value="2" />
+              <option name="method" value="GET" />
+              <option name="params">
+                <map>
+                  <entry key="id" value="2" />
+                </map>
+              </option>
+              <option name="res" value="{&quot;id&quot;:2,&quot;firstName&quot;:&quot;ravi&quot;,&quot;lastName&quot;:&quot;g&quot;,&quot;email&quot;:&quot;ravi@gmail.com&quot;,&quot;address&quot;:&quot;k kovil&quot;,&quot;alerting&quot;:false,&quot;energyAlertingThreshold&quot;:0.0}" />
+              <option name="time" value="2025-12-10 09:53:25" />
+              <option name="uri" value="/api/v1/users/{id}" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="3">
+          <value>
+            <ReqHistory>
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="id" value="3" />
+              <option name="method" value="GET" />
+              <option name="params">
+                <map>
+                  <entry key="id" value="3" />
+                </map>
+              </option>
+              <option name="res" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no explicit mapping for /error, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Wed Dec 10 09:55:28 IST 2025&lt;/div&gt;&lt;div&gt;There was an unexpected error (type=Internal Server Error, status=500).&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="time" value="2025-12-10 09:55:28" />
+              <option name="uri" value="/api/v1/users/{id}" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="4">
+          <value>
+            <ReqHistory>
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="id" value="4" />
+              <option name="method" value="GET" />
+              <option name="params">
+                <map>
+                  <entry key="id" value="3" />
+                </map>
+              </option>
+              <option name="res" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no explicit mapping for /error, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Wed Dec 10 09:58:21 IST 2025&lt;/div&gt;&lt;div&gt;There was an unexpected error (type=Internal Server Error, status=500).&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="time" value="2025-12-10 09:58:21" />
+              <option name="uri" value="/api/v1/users/{id}" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="5">
+          <value>
+            <ReqHistory>
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="id" value="5" />
+              <option name="method" value="GET" />
+              <option name="params">
+                <map>
+                  <entry key="id" value="3" />
+                </map>
+              </option>
+              <option name="res" value="{&quot;cause&quot;:null,&quot;localizedMessage&quot;:&quot;User Not Found With this Id = 3&quot;,&quot;message&quot;:&quot;User Not Found With this Id = 3&quot;,&quot;stackTrace&quot;:[{&quot;classLoaderName&quot;:&quot;app&quot;,&quot;className&quot;:&quot;com.ragul.user_service.service.UserService&quot;,&quot;fileName&quot;:&quot;UserService.java&quot;,&quot;lineNumber&quot;:36,&quot;methodName&quot;:&quot;lambda$getUserById$0&quot;,&quot;moduleName&quot;:null,&quot;moduleVersion&quot;:null,&quot;nativeMethod&quot;:false},{&quot;classLoaderName&quot;:null,&quot;className&quot;:&quot;java.util.Optional&quot;,&quot;fileName&quot;:&quot;Optional.java&quot;,&quot;lineNumber&quot;:403,&quot;methodName&quot;:&quot;orElseThrow&quot;,&quot;moduleName&quot;:&quot;java.base&quot;,&quot;moduleVersion&quot;:&quot;21.0.9&quot;,&quot;nativeMethod&quot;:false},{&quot;classLoaderName&quot;:&quot;app&quot;,&quot;className&quot;:&quot;com.ragul.user_service.service.UserService&quot;,&quot;fileName&quot;:&quot;UserService.java&quot;,&quot;lineNumber&quot;:36,&quot;methodName&quot;:&quot;getUserById&quot;,&quot;moduleName&quot;:null,&quot;moduleVersion&quot;:null,&quot;nativeMethod&quot;:false},{&quot;classLoaderName&quot;:&quot;app&quot;,&quot;className&quot;:&quot;com.ragul.user_service.controller.UserController&quot;,&quot;fileName&quot;:&quot;UserController.java&quot;,&quot;lineNumber&quot;:26,&quot;methodName&quot;:&quot;getUserById&quot;,&quot;moduleName&quot;:null,&quot;moduleVersion&quot;:null,&quot;nativeMethod&quot;:false},{&quot;classLoaderName&quot;:null,&quot;className&quot;:&quot;jdk.internal.reflect.DirectMethodHandleAccessor&quot;,&quot;fileName&quot;:&quot;DirectMethodHandleAccessor.java&quot;,&quot;lineNumber&quot;:103,&quot;methodName&quot;:&quot;invoke&quot;,&quot;moduleName&quot;:&quot;java.base&quot;,&quot;moduleVersion&quot;:&quot;21.0.9&quot;,&quot;nativeMethod&quot;:false},{&quot;classLoaderName&quot;:null,&quot;className&quot;:&quot;java.lang.reflect.Method&quot;,&quot;fileName&quot;:&quot;Method.java&quot;,&quot;lineNumber&quot;:580,&quot;methodName&quot;:&quot;invoke&quot;,&quot;moduleName&quot;:&quot;java.base&quot;,&quot;moduleVersion&quot;:&quot;21.0.9&quot;,&quot;nativeMethod&quot;:false},{&quot;classLoaderName&quot;:&quot;app&quot;,&quot;className&quot;:&quot;org.springframework.web.method.support.InvocableHandlerMethod&quot;,&quot;fileName&quot;:&quot;InvocableHandlerMethod.java&quot;,&quot;lineNumber&quot;:258,&quot;methodName&quot;:&quot;doInvoke&quot;,&quot;moduleName&quot;:null,&quot;moduleVersion&quot;:null,&quot;nativeMethod&quot;:false},{&quot;classLoaderName&quot;:&quot;app&quot;,&quot;className&quot;:&quot;org.springframework.web.method.support.InvocableHandlerMethod&quot;,&quot;fileName&quot;:&quot;InvocableHandlerMethod.java&quot;,&quot;lineNumber&quot;:190,&quot;methodName&quot;:&quot;invokeForRequest&quot;,&quot;moduleName&quot;:null,&quot;moduleVersion&quot;:null,&quot;nativeMethod&quot;:false},{&quot;classLoaderName&quot;:&quot;app&quot;,&quot;className&quot;:&quot;org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod&quot;,&quot;fileName&quot;:&quot;ServletInvocableHandlerMethod.java&quot;,&quot;lineNumber&quot;:117,&quot;methodName&quot;:&quot;invokeAndHandle&quot;,&quot;moduleName&quot;:null,&quot;moduleVersion&quot;:null,&quot;nativeMethod&quot;:false},{&quot;classLoaderName&quot;:&quot;app&quot;,&quot;className&quot;:&quot;org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter&quot;,&quot;fileName&quot;:&quot;RequestMappingHandlerAdapter.java&quot;,&quot;lineNumber&quot;:934,&quot;methodName&quot;:&quot;invokeHandlerMethod&quot;,&quot;moduleName&quot;:null,&quot;moduleVersion&quot;:null,&quot;nativeMethod&quot;:false},{&quot;classLoaderName&quot;:&quot;app&quot;,&quot;className&quot;:&quot;org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter&quot;,&quot;fileName&quot;:&quot;RequestMappingHandlerAdapter.java&quot;,&quot;lineNumber&quot;:853,&quot;methodName&quot;:&quot;handleInternal&quot;,&quot;moduleName&quot;:null,&quot;moduleVersion&quot;:null,&quot;nativeMethod&quot;:false},{&quot;classLoaderName&quot;:&quot;app&quot;,&quot;className&quot;:&quot;org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter&quot;,&quot;fileName&quot;:&quot;AbstractHandlerMethodAdapter.java&quot;,&quot;lineNumber&quot;:86,&quot;methodName&quot;:&quot;handle&quot;,&quot;moduleName&quot;:null,&quot;moduleVersion&quot;:null,&quot;nativeMethod&quot;:false},{&quot;classLoaderName&quot;:&quot;app&quot;,&quot;className&quot;:&quot;org.springframework.web.servlet.DispatcherServlet&quot;,&quot;fileName&quot;:&quot;DispatcherServlet.java&quot;,&quot;lineNumber&quot;:963,&quot;methodName&quot;:&quot;doDispatch&quot;,&quot;moduleName&quot;:null,&quot;moduleVersion&quot;:null,&quot;nativeMethod&quot;:false},{&quot;classLoaderName&quot;:&quot;app&quot;,&quot;className&quot;:&quot;org.springframework.web.servlet.DispatcherServlet&quot;,&quot;fileName&quot;:&quot;DispatcherServlet.java&quot;,&quot;lineNumber&quot;:866,&quot;methodName&quot;:&quot;doService&quot;,&quot;moduleName&quot;:null,&quot;moduleVersion&quot;:null,&quot;nativeMethod&quot;:false},{&quot;classLoaderName&quot;:&quot;app&quot;,&quot;className&quot;:&quot;org.springframework.web.servlet.FrameworkServlet&quot;,&quot;fileName&quot;:&quot;FrameworkServlet.java&quot;,&quot;lineNumber&quot;:1003,&quot;methodName&quot;:&quot;processRequest&quot;,&quot;moduleName&quot;:null,&quot;moduleVersion&quot;:null,&quot;nativeMethod&quot;:false},{&quot;classLoaderName&quot;:&quot;app&quot;,&quot;className&quot;:&quot;org.springframework.web.servlet.FrameworkServlet&quot;,&quot;fileName&quot;:&quot;FrameworkServlet.java&quot;,&quot;lineNumber&quot;:892,&quot;methodName&quot;:&quot;doGet&quot;,&quot;moduleName&quot;:null,&quot;moduleVersion&quot;:null,&quot;nativeMethod&quot;:false},{&quot;classLoaderName&quot;:&quot;app&quot;,&quot;className&quot;:&quot;jakarta.servlet.http.HttpServlet&quot;,&quot;fileName&quot;:&quot;HttpServlet.java&quot;,&quot;lineNumber&quot;:622,&quot;methodName&quot;:&quot;service&quot;,&quot;moduleName&quot;:null,&quot;moduleVersion&quot;:null,&quot;nativeMethod&quot;:false},{&quot;classLoaderName&quot;:&quot;app&quot;,&quot;className&quot;:&quot;org.springframework.web.servlet.FrameworkServlet&quot;,&quot;fileName&quot;:&quot;FrameworkServlet.java&quot;,&quot;lineNumber&quot;:874,&quot;methodName&quot;:&quot;service&quot;,&quot;moduleName&quot;:null,&quot;moduleVersion&quot;:null,&quot;nativeMethod&quot;:false},{&quot;classLoaderName&quot;:&quot;app&quot;,&quot;className&quot;:&quot;jakarta.servlet.http.HttpServlet&quot;,&quot;fileName&quot;:&quot;HttpServlet.java&quot;,&quot;lineNumber&quot;:710,&quot;methodName&quot;:&quot;service&quot;,&quot;moduleName&quot;:null,&quot;moduleVersion&quot;:null,&quot;nativeMethod&quot;:false},{&quot;classLoaderName&quot;:&quot;app&quot;,&quot;className&quot;:&quot;org.apache.catalina.core.ApplicationFilterChain&quot;,&quot;fileName&quot;:&quot;ApplicationFilterChain.java&quot;,&quot;lineNumber&quot;:128,&quot;methodName&quot;:&quot;doFilter&quot;,&quot;moduleName&quot;:null,&quot;moduleVersion&quot;:null,&quot;nativeMethod&quot;:false},{&quot;classLoaderName&quot;:&quot;app&quot;,&quot;className&quot;:&quot;org.apache.tomcat.websocket.server.WsFilter&quot;,&quot;fileName&quot;:&quot;WsFilter.java&quot;,&quot;lineNumber&quot;:53,&quot;methodName&quot;:&quot;doFilter&quot;,&quot;moduleName&quot;:null,&quot;moduleVersion&quot;:null,&quot;nativeMethod&quot;:false},{&quot;classLoaderName&quot;:&quot;app&quot;,&quot;className&quot;:&quot;org.apache.catalina.core.ApplicationFilterChain&quot;,&quot;fileName&quot;:&quot;ApplicationFilterChain.java&quot;,&quot;lineNumber&quot;:107,&quot;methodName&quot;:&quot;doFilter&quot;,&quot;moduleName&quot;:null,&quot;moduleVersion&quot;:null,&quot;nativeMethod&quot;:false},{&quot;classLoaderName&quot;:&quot;app&quot;,&quot;className&quot;:&quot;org.springframework.web.filter.RequestContextFilter&quot;,&quot;fileName&quot;:&quot;RequestContextFilter.java&quot;,&quot;lineNumber&quot;:100,&quot;methodName&quot;:&quot;doFilterInternal&quot;,&quot;moduleName&quot;:null,&quot;moduleVersion&quot;:null,&quot;nativeMethod&quot;:false},{&quot;classLoaderName&quot;:&quot;app&quot;,&quot;className&quot;:&quot;org.springframework.web.filter.OncePerRequestFilter&quot;,&quot;fileName&quot;:&quot;OncePerRequestFilter.java&quot;,&quot;lineNumber&quot;:116,&quot;methodName&quot;:&quot;doFilter&quot;,&quot;moduleName&quot;:null,&quot;moduleVersion&quot;:null,&quot;nativeMethod&quot;:false},{&quot;classLoaderName&quot;:&quot;app&quot;,&quot;className&quot;:&quot;org.apache.catalina.core.ApplicationFilterChain&quot;,&quot;fileName&quot;:&quot;ApplicationFilterChain.java&quot;,&quot;lineNumber&quot;:107,&quot;methodName&quot;:&quot;doFilter&quot;,&quot;moduleName&quot;:null,&quot;moduleVersion&quot;:null,&quot;nativeMethod&quot;:false},{&quot;classLoaderName&quot;:&quot;app&quot;,&quot;className&quot;:&quot;org.springframework.web.filter.FormContentFilter&quot;,&quot;fileName&quot;:&quot;FormContentFilter.java&quot;,&quot;lineNumber&quot;:93,&quot;methodName&quot;:&quot;doFilterInternal&quot;,&quot;moduleName&quot;:null,&quot;moduleVersion&quot;:null,&quot;nativeMethod&quot;:false},{&quot;classLoaderName&quot;:&quot;app&quot;,&quot;className&quot;:&quot;org.springframework.web.filter.OncePerRequestFilter&quot;,&quot;fileName&quot;:&quot;OncePerRequestFilter.java&quot;,&quot;lineNumber&quot;:116,&quot;methodName&quot;:&quot;doFilter&quot;,&quot;moduleName&quot;:null,&quot;moduleVersion&quot;:null,&quot;nativeMethod&quot;:false},{&quot;classLoaderName&quot;:&quot;app&quot;,&quot;className&quot;:&quot;org.apache.catalina.core.ApplicationFilterChain&quot;,&quot;fileName&quot;:&quot;ApplicationFilterChain.java&quot;,&quot;lineNumber&quot;:107,&quot;methodName&quot;:&quot;doFilter&quot;,&quot;moduleName&quot;:null,&quot;moduleVersion&quot;:null,&quot;nativeMethod&quot;:false},{&quot;classLoaderName&quot;:&quot;app&quot;,&quot;className&quot;:&quot;org.springframework.web.filter.CharacterEncodingFilter&quot;,&quot;fileName&quot;:&quot;CharacterEncodingFilter.java&quot;,&quot;lineNumber&quot;:199,&quot;methodName&quot;:&quot;doFilterInternal&quot;,&quot;moduleName&quot;:null,&quot;moduleVersion&quot;:null,&quot;nativeMethod&quot;:false},{&quot;classLoaderName&quot;:&quot;app&quot;,&quot;className&quot;:&quot;org.springframework.web.filter.OncePerRequestFilter&quot;,&quot;fileName&quot;:&quot;OncePerRequestFilter.java&quot;,&quot;lineNumber&quot;:116,&quot;methodName&quot;:&quot;doFilter&quot;,&quot;moduleName&quot;:null,&quot;moduleVersion&quot;:null,&quot;nativeMethod&quot;:false},{&quot;classLoaderName&quot;:&quot;app&quot;,&quot;className&quot;:&quot;org.apache.catalina.core.ApplicationFilterChain&quot;,&quot;fileName&quot;:&quot;ApplicationFilterChain.java&quot;,&quot;lineNumber&quot;:107,&quot;methodName&quot;:&quot;doFilter&quot;,&quot;moduleName&quot;:null,&quot;moduleVersion&quot;:null,&quot;nativeMethod&quot;:false},{&quot;classLoaderName&quot;:&quot;app&quot;,&quot;className&quot;:&quot;org.apache.catalina.core.StandardWrapperValve&quot;,&quot;fileName&quot;:&quot;StandardWrapperValve.java&quot;,&quot;lineNumber&quot;:165,&quot;methodName&quot;:&quot;invoke&quot;,&quot;moduleName&quot;:null,&quot;moduleVersion&quot;:null,&quot;nativeMethod&quot;:false},{&quot;classLoaderName&quot;:&quot;app&quot;,&quot;className&quot;:&quot;org.apache.catalina.core.StandardContextValve&quot;,&quot;fileName&quot;:&quot;StandardContextValve.java&quot;,&quot;lineNumber&quot;:77,&quot;methodName&quot;:&quot;invoke&quot;,&quot;moduleName&quot;:null,&quot;moduleVersion&quot;:null,&quot;nativeMethod&quot;:false},{&quot;classLoaderName&quot;:&quot;app&quot;,&quot;className&quot;:&quot;org.apache.catalina.authenticator.AuthenticatorBase&quot;,&quot;fileName&quot;:&quot;AuthenticatorBase.java&quot;,&quot;lineNumber&quot;:482,&quot;methodName&quot;:&quot;invoke&quot;,&quot;moduleName&quot;:null,&quot;moduleVersion&quot;:null,&quot;nativeMethod&quot;:false},{&quot;classLoaderName&quot;:&quot;app&quot;,&quot;className&quot;:&quot;org.apache.catalina.core.StandardHostValve&quot;,&quot;fileName&quot;:&quot;StandardHostValve.java&quot;,&quot;lineNumber&quot;:113,&quot;methodName&quot;:&quot;invoke&quot;,&quot;moduleName&quot;:null,&quot;moduleVersion&quot;:null,&quot;nativeMethod&quot;:false},{&quot;classLoaderName&quot;:&quot;app&quot;,&quot;className&quot;:&quot;org.apache.catalina.valves.ErrorReportValve&quot;,&quot;fileName&quot;:&quot;ErrorReportValve.java&quot;,&quot;lineNumber&quot;:83,&quot;methodName&quot;:&quot;invoke&quot;,&quot;moduleName&quot;:null,&quot;moduleVersion&quot;:null,&quot;nativeMethod&quot;:false},{&quot;classLoaderName&quot;:&quot;app&quot;,&quot;className&quot;:&quot;org.apache.catalina.core.StandardEngineValve&quot;,&quot;fileName&quot;:&quot;StandardEngineValve.java&quot;,&quot;lineNumber&quot;:72,&quot;methodName&quot;:&quot;invoke&quot;,&quot;moduleName&quot;:null,&quot;moduleVersion&quot;:null,&quot;nativeMethod&quot;:false},{&quot;classLoaderName&quot;:&quot;app&quot;,&quot;className&quot;:&quot;org.apache.catalina.connector.CoyoteAdapter&quot;,&quot;fileName&quot;:&quot;CoyoteAdapter.java&quot;,&quot;lineNumber&quot;:341,&quot;methodName&quot;:&quot;service&quot;,&quot;moduleName&quot;:null,&quot;moduleVersion&quot;:null,&quot;nativeMethod&quot;:false},{&quot;classLoaderName&quot;:&quot;app&quot;,&quot;className&quot;:&quot;org.apache.coyote.http11.Http11Processor&quot;,&quot;fileName&quot;:&quot;Http11Processor.java&quot;,&quot;lineNumber&quot;:397,&quot;methodName&quot;:&quot;service&quot;,&quot;moduleName&quot;:null,&quot;moduleVersion&quot;:null,&quot;nativeMethod&quot;:false},{&quot;classLoaderName&quot;:&quot;app&quot;,&quot;className&quot;:&quot;org.apache.coyote.AbstractProcessorLight&quot;,&quot;fileName&quot;:&quot;AbstractProcessorLight.java&quot;,&quot;lineNumber&quot;:63,&quot;methodName&quot;:&quot;process&quot;,&quot;moduleName&quot;:null,&quot;moduleVersion&quot;:null,&quot;nativeMethod&quot;:false},{&quot;classLoaderName&quot;:&quot;app&quot;,&quot;className&quot;:&quot;org.apache.coyote.AbstractProtocol$ConnectionHandler&quot;,&quot;fileName&quot;:&quot;AbstractProtocol.java&quot;,&quot;lineNumber&quot;:903,&quot;methodName&quot;:&quot;process&quot;,&quot;moduleName&quot;:null,&quot;moduleVersion&quot;:null,&quot;nativeMethod&quot;:false},{&quot;classLoaderName&quot;:&quot;app&quot;,&quot;className&quot;:&quot;org.apache.tomcat.util.net.NioEndpoint$SocketProcessor&quot;,&quot;fileName&quot;:&quot;NioEndpoint.java&quot;,&quot;lineNumber&quot;:1778,&quot;methodName&quot;:&quot;doRun&quot;,&quot;moduleName&quot;:null,&quot;moduleVersion&quot;:null,&quot;nativeMethod&quot;:false},{&quot;classLoaderName&quot;:&quot;app&quot;,&quot;className&quot;:&quot;org.apache.tomcat.util.net.SocketProcessorBase&quot;,&quot;fileName&quot;:&quot;SocketProcessorBase.java&quot;,&quot;lineNumber&quot;:52,&quot;methodName&quot;:&quot;run&quot;,&quot;moduleName&quot;:null,&quot;moduleVersion&quot;:null,&quot;nativeMethod&quot;:false},{&quot;classLoaderName&quot;:&quot;app&quot;,&quot;className&quot;:&quot;org.apache.tomcat.util.threads.ThreadPoolExecutor&quot;,&quot;fileName&quot;:&quot;ThreadPoolExecutor.java&quot;,&quot;lineNumber&quot;:946,&quot;methodName&quot;:&quot;runWorker&quot;,&quot;moduleName&quot;:null,&quot;moduleVersion&quot;:null,&quot;nativeMethod&quot;:false},{&quot;classLoaderName&quot;:&quot;app&quot;,&quot;className&quot;:&quot;org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker&quot;,&quot;fileName&quot;:&quot;ThreadPoolExecutor.java&quot;,&quot;lineNumber&quot;:480,&quot;methodName&quot;:&quot;run&quot;,&quot;moduleName&quot;:null,&quot;moduleVersion&quot;:null,&quot;nativeMethod&quot;:false},{&quot;classLoaderName&quot;:&quot;app&quot;,&quot;className&quot;:&quot;org.apache.tomcat.util.threads.TaskThread$WrappingRunnable&quot;,&quot;fileName&quot;:&quot;TaskThread.java&quot;,&quot;lineNumber&quot;:57,&quot;methodName&quot;:&quot;run&quot;,&quot;moduleName&quot;:null,&quot;moduleVersion&quot;:null,&quot;nativeMethod&quot;:false},{&quot;classLoaderName&quot;:null,&quot;className&quot;:&quot;java.lang.Thread&quot;,&quot;fileName&quot;:&quot;Thread.java&quot;,&quot;lineNumber&quot;:1583,&quot;methodName&quot;:&quot;run&quot;,&quot;moduleName&quot;:&quot;java.base&quot;,&quot;moduleVersion&quot;:&quot;21.0.9&quot;,&quot;nativeMethod&quot;:false}],&quot;suppressed&quot;:[]}" />
+              <option name="time" value="2025-12-10 09:59:16" />
+              <option name="uri" value="/api/v1/users/{id}" />
+            </ReqHistory>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
