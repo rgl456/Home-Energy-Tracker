@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="HttpHistory">
+    <option name="httpHistories">
+      <map>
+        <entry key="0">
+          <value>
+            <ReqHistory>
+              <option name="body" value="{&#10;  &quot;firstName&quot;:&quot;ravi&quot;,&#10;  &quot;lastName&quot;:&quot;g&quot;,&#10;  &quot;email&quot;:&quot;ravi@gmail.com&quot;,&#10;  &quot;address&quot;:&quot;k kovil&quot;,&#10;  &quot;alerting&quot;:false,&#10;  &quot;energyAlertingThreshold&quot;:0.0&#10;}" />
+              <option name="contentType" value="application/json" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map>
+                  <entry key="Content-Type" value="application/json" />
+                </map>
+              </option>
+              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="id" value="0" />
+              <option name="method" value="POST" />
+              <option name="params">
+                <map />
+              </option>
+              <option name="res" value="{&quot;id&quot;:2,&quot;firstName&quot;:&quot;ravi&quot;,&quot;lastName&quot;:&quot;g&quot;,&quot;email&quot;:&quot;ravi@gmail.com&quot;,&quot;address&quot;:&quot;k kovil&quot;,&quot;alerting&quot;:false,&quot;energyAlertingThreshold&quot;:0.0}" />
+              <option name="time" value="2025-12-10 09:41:43" />
+              <option name="uri" value="/api/v1/users" />
+            </ReqHistory>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
